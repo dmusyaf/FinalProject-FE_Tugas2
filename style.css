@@ -1,0 +1,677 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  display: flex;
+  background-color: #4b5348;
+  flex-direction: column;
+  width: 100vw;
+  height: 85vh;
+}
+
+nav.navigasi-bar {
+  display: flex;
+  background-color: #1e201e;
+  width: 100vw;
+  height: 13vh;
+  justify-content: space-between;
+  padding: 0 7rem;
+  position: fixed;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.logo-title {
+  height: 100%;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo-title h2 {
+  height: 100%;
+  font-size: 2.3rem;
+  color: white;
+  text-shadow: 0 0 3px white;
+}
+
+.navigasi-bar ul {
+  height: 100%;
+  width: auto;
+  list-style-type: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+.navigasi-bar ul li a {
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.jumbotron-title-img {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("Photos/Jumbotron.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron-title-img h1 {
+  color: white;
+  padding: 0.5rem;
+  font-size: 5rem;
+}
+
+.jumbotron-title-img h3 {
+  color: white;
+  font-size: 2rem;
+}
+
+section.container-luar {
+  width: 100vw;
+  height: auto;
+  background-color: #30312b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-dalam-konten {
+  width: 75vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #697565;
+  padding: 7rem 4rem;
+  gap: 5rem;
+}
+
+article.konten-1 {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-profile-website {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  background-color: #4b5348;
+  padding: 2rem;
+  border-radius: 20px;
+  border: 10px solid #1e201e;
+}
+
+.pw-1,
+.pw-2 {
+  color: white;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.pw-2 {
+  text-align: justify;
+}
+
+.pw-1 h2 {
+  text-align: center;
+  font-size: 2.7rem;
+  text-shadow: 0 0 10px white;
+}
+
+.container-kategori-penghargaan {
+  width: 100%;
+  height: 30%;
+  margin-top: 2rem;
+}
+
+.container-kategori-penghargaan ul {
+  height: 100%;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.container-kategori-penghargaan ul li {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.5rem;
+  background-color: #4b5348;
+  border-radius: 20px;
+  border: 5px solid #1e201e;
+  padding: 1rem;
+}
+
+.article-main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.konten-utama {
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6rem;
+}
+
+.container-article {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background-color: #4b5348;
+  border-radius: 20px;
+  border: 10px solid #1e201e;
+}
+
+.head-article {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 100%;
+  text-shadow: 0 0 10px white;
+}
+
+.container-img-article {
+  background-color: #ecdfcc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  width: 25%;
+  gap: 1rem;
+  border-radius: 20px;
+  text-align: center;
+  border: 1px solid #665e50;
+}
+
+.container-img-article img {
+  border: 2px solid white;
+  border-radius: 20px;
+}
+
+.container-img-article h3 {
+  color: black;
+  font-size: 1.5rem;
+}
+
+.container-img-article p {
+  font-size: 1.1rem;
+}
+
+.nomination {
+  background-color: #ecdfcc;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+.nomination a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.container-archive {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.head-archive {
+  width: 50%;
+  display: grid;
+  place-items: center;
+  background-color: #4b5348;
+  padding: 1rem;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 20px;
+  text-shadow: 0 0 10px white;
+  border: 7px solid #1e201e;
+}
+
+.kumpulan-archive {
+  width: 100%;
+  height: 50%;
+  background-color: #4b5348;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 20px;
+  border: 7px solid #1e201e;
+}
+
+.archive-0 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #30312b;
+  width: 50%;
+  height: 30%;
+  padding: 0 2rem;
+  border-radius: 20px;
+  color: white;
+}
+
+.archive-0 a {
+  list-style-type: none;
+  color: black;
+}
+
+.link-archive {
+  background-color: #ecdfcc;
+  width: 10%;
+  display: grid;
+  place-items: center;
+  border-radius: 20px;
+}
+
+footer {
+  width: 100vw;
+  height: 15vh;
+}
+
+.container-footer {
+  width: 100%;
+  height: 100%;
+  background-color: #1e201e;
+}
+
+.ft {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10rem;
+}
+
+.container-footer .ft-1 {
+  color: white;
+}
+
+.container-footer .ft-2 {
+  display: flex;
+  gap: 1rem;
+}
+
+.container-footer .ft-2 svg {
+  color: white;
+}
+
+@media (max-width: 480px) {
+  p {
+    font-size: 0.6rem;
+  }
+
+  header {
+    display: flex;
+    background-color: #4b5348;
+    flex-direction: column;
+    width: 100vw;
+    height: 50vh;
+  }
+  nav.navigasi-bar {
+    display: flex;
+    background-color: #1e201e;
+    width: 100vw;
+    height: 10vh;
+    justify-content: space-between;
+    padding: 0 1rem;
+    position: fixed;
+  }
+
+  .navigasi-bar ul {
+    height: 100%;
+    width: auto;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .navigasi-bar ul li a {
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    font-family: "Bebas Neue", sans-serif;
+  }
+
+  .logo-title {
+    height: 100%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .logo-title h2 {
+    font-size: 1rem;
+    color: white;
+    text-shadow: 0 0 3px white;
+  }
+
+  .jumbotron-title-img h1 {
+    color: white;
+    padding: 0.5rem;
+    font-size: 2rem;
+  }
+
+  .jumbotron-title-img h3 {
+    color: white;
+    font-size: 1.5rem;
+  }
+
+  section.container-luar {
+    width: 100vw;
+    height: auto;
+    background-color: #30312b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container-dalam-konten {
+    width: 75vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #697565;
+    padding: 4rem 2rem;
+    gap: 2rem;
+  }
+
+  .container-profile-website {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    background-color: #4b5348;
+    padding: 0.7rem;
+    border-radius: 20px;
+    border: 10px solid #1e201e;
+  }
+
+  .pw-1,
+  .pw-2 {
+    color: white;
+    font-size: 1rem;
+    margin: 1rem 0;
+  }
+
+  .pw-2 {
+    text-align: justify;
+  }
+
+  .pw-1 h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    text-shadow: 0 0 10px white;
+  }
+
+  .container-kategori-penghargaan {
+    width: 100%;
+    height: 10%;
+    margin-top: 2rem;
+  }
+
+  .container-kategori-penghargaan ul {
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .container-kategori-penghargaan ul li {
+    width: 35%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 0.5rem;
+    background-color: #4b5348;
+    border-radius: 20px;
+    border: 5px solid #1e201e;
+    padding: 0.4rem;
+  }
+
+  .article-main {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .konten-utama {
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+  }
+
+  .container-article {
+    width: 90%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background-color: #4b5348;
+    border-radius: 20px;
+    border: 10px solid #1e201e;
+  }
+
+  .head-article {
+    color: white;
+    font-size: 0.5rem;
+    text-align: center;
+    width: 100%;
+    text-shadow: 0 0 10px white;
+  }
+
+  .container-img-article {
+    background-color: #ecdfcc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    width: 25%;
+    gap: 1rem;
+    border-radius: 20px;
+    text-align: center;
+    border: 5px solid #665e50;
+  }
+
+  .container-img-article img {
+    border: 2px solid white;
+    border-radius: 20px;
+  }
+
+  .container-img-article h3 {
+    color: black;
+    font-size: 0.5rem;
+  }
+
+  .container-img-article p {
+    font-size: 0.5rem;
+  }
+
+  .nomination {
+    background-color: #ecdfcc;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 20px;
+  }
+
+  .nomination a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 0.5rem;
+  }
+
+  .container-archive {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .head-archive {
+    width: 80%;
+    display: grid;
+    place-items: center;
+    background-color: #4b5348;
+    padding: 1rem;
+    color: white;
+    font-size: 0.5rem;
+    border-radius: 20px;
+    text-shadow: 0 0 10px white;
+    border: 7px solid #1e201e;
+  }
+
+  .kumpulan-archive {
+    width: 100%;
+    height: 50%;
+    background-color: #4b5348;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 20px;
+    border: 7px solid #1e201e;
+  }
+
+  .archive-0 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #30312b;
+    width: 50%;
+    height: 30%;
+    padding: 0 1rem;
+    border-radius: 20px;
+    color: white;
+  }
+
+  .archive-0 a {
+    list-style-type: none;
+    color: black;
+  }
+
+  .archive-0 h1,
+  h2 {
+    font-size: 0.5rem;
+  }
+
+  .link-archive {
+    background-color: #ecdfcc;
+    width: 10%;
+    display: grid;
+    place-items: center;
+    border-radius: 20px;
+  }
+
+  footer {
+    width: 100vw;
+    height: 15vh;
+  }
+
+  .container-footer {
+    width: 100%;
+    height: 100%;
+    background-color: #1e201e;
+  }
+
+  .ft {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem;
+  }
+
+  .container-footer .ft-1 {
+    color: white;
+  }
+
+  .container-footer .ft-2 {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .container-footer .ft-2 svg {
+    color: white;
+  }
+}
